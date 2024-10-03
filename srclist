@@ -5101,6 +5101,23 @@ pkgbase = lf-bin
 
 pkgname = lf-bin
 ---
+pkgbase = libada
+	pkgver = 2.9.2
+	pkgdesc = WHATWG-compliant and fast URL parser written in modern C++
+	url = https://github.com/ada-url/ada
+	arch = all
+	makedepends = cmake
+	makedepends = gcc
+	license = Apache-2.0
+	license = MIT
+	maintainer = bibelin <balian1belin@yandex.ru>
+	source = https://github.com/ada-url/ada/archive/refs/tags/v2.9.2.tar.gz
+
+pkgname = libada2
+
+pkgname = libada-dev
+	pkgdesc = WHATWG-compliant and fast URL parser written in modern C++ (development files)
+---
 pkgbase = libcamera-git
 	gives = libcamera
 	pkgver = 0.1.0

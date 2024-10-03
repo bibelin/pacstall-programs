@@ -256,6 +256,9 @@ lbry-deb
 lemonbar-xft-git
 lens
 lf-bin
+libada:pkgbase
+libada:libada2
+libada:libada-dev
 libcamera-git
 libcs50-git
 libcutefish-git
